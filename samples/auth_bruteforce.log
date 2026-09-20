@@ -1,0 +1,27 @@
+Sep 19 02:11:03 web01 sshd[3201]: Accepted publickey for alice from 192.0.2.10 port 52110 ssh2: RSA SHA256:7h2Qp1kXcO9vEr4m0LzYbN6sTgWx3JdFaHuVnQeKpMI
+Sep 19 03:14:07 web01 sshd[3310]: Invalid user root from 203.0.113.45 port 40122
+Sep 19 03:14:07 web01 sshd[3310]: Failed password for root from 203.0.113.45 port 40122 ssh2
+Sep 19 03:14:09 web01 sshd[3312]: Failed password for root from 203.0.113.45 port 40128 ssh2
+Sep 19 03:14:12 web01 sshd[3314]: Invalid user admin from 203.0.113.45 port 40134
+Sep 19 03:14:12 web01 sshd[3314]: Failed password for invalid user admin from 203.0.113.45 port 40134 ssh2
+Sep 19 03:14:15 web01 sshd[3316]: Failed password for invalid user admin from 203.0.113.45 port 40140 ssh2
+Sep 19 03:14:18 web01 sshd[3318]: Invalid user test from 203.0.113.45 port 40146
+Sep 19 03:14:18 web01 sshd[3318]: Failed password for invalid user test from 203.0.113.45 port 40146 ssh2
+Sep 19 03:14:21 web01 sshd[3320]: Failed password for invalid user oracle from 203.0.113.45 port 40152 ssh2
+Sep 19 03:14:24 web01 sshd[3322]: Failed password for invalid user postgres from 203.0.113.45 port 40158 ssh2
+Sep 19 03:14:27 web01 sshd[3324]: Failed password for root from 203.0.113.45 port 40164 ssh2
+Sep 19 03:14:31 web01 sshd[3326]: Failed password for invalid user ubuntu from 203.0.113.45 port 40170 ssh2
+Sep 19 03:14:34 web01 sshd[3328]: Failed password for invalid user git from 203.0.113.45 port 40176 ssh2
+Sep 19 03:14:37 web01 sshd[3330]: Failed password for root from 203.0.113.45 port 40182 ssh2
+Sep 19 03:14:41 web01 sshd[3332]: Failed password for invalid user jenkins from 203.0.113.45 port 40188 ssh2
+Sep 19 03:14:44 web01 sshd[3334]: Connection closed by authenticating user root 203.0.113.45 port 40194 [preauth]
+Sep 19 03:22:50 web01 sshd[3390]: Failed password for invalid user pi from 198.51.100.77 port 33890 ssh2
+Sep 19 03:23:14 web01 sshd[3392]: Failed password for invalid user pi from 198.51.100.77 port 33902 ssh2
+Sep 19 03:24:02 web01 sshd[3394]: Failed password for invalid user support from 198.51.100.77 port 33914 ssh2
+Sep 19 03:25:47 web01 sshd[3396]: Failed password for invalid user guest from 198.51.100.77 port 33926 ssh2
+Sep 19 03:27:30 web01 sshd[3398]: Failed password for invalid user ftpuser from 198.51.100.77 port 33938 ssh2
+Sep 19 03:29:11 web01 sshd[3400]: Failed password for invalid user nagios from 198.51.100.77 port 33950 ssh2
+Sep 19 04:01:00 web01 sshd[3455]: Failed password for
+Sep 19 04:02:15 web01 sshd[3460]: Failed password for bob from 192.0.2.24 port 50440 ssh2
+Sep 19 04:02:29 web01 sshd[3460]: Accepted password for bob from 192.0.2.24 port 50440 ssh2
+Sep 19 08:30:41 web01 sshd[3701]: Accepted publickey for deploy from 192.0.2.50 port 42118 ssh2: ED25519 SHA256:Kq8Lm2WpXz4TbNcYv6RsEgHj1UdFo0AiPeMxZt7BnQw

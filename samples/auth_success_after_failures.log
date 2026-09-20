@@ -1,0 +1,15 @@
+Sep 20 01:05:22 web01 sshd[5100]: Accepted publickey for alice from 192.0.2.10 port 53002 ssh2: RSA SHA256:7h2Qp1kXcO9vEr4m0LzYbN6sTgWx3JdFaHuVnQeKpMI
+Sep 20 01:40:11 web01 sshd[5188]: Failed password for deploy from 198.51.100.23 port 45012 ssh2
+Sep 20 01:40:29 web01 sshd[5190]: Failed password for deploy from 198.51.100.23 port 45018 ssh2
+Sep 20 01:40:52 web01 sshd[5192]: Failed password for deploy from 198.51.100.23 port 45024 ssh2
+Sep 20 01:41:18 web01 sshd[5194]: Failed password for deploy from 198.51.100.23 port 45030 ssh2
+Sep 20 01:41:47 web01 sshd[5196]: Failed password for deploy from 198.51.100.23 port 45036 ssh2
+Sep 20 01:42:09 web01 sshd[5198]: Failed password for deploy from 198.51.100.23 port 45042 ssh2
+Sep 20 01:42:33 web01 sshd[5200]: Accepted password for deploy from 198.51.100.23 port 45048 ssh2
+Sep 20 01:42:33 web01 sshd[5200]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 01:43:02 web01 sudo[5210]: deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/bash
+Sep 20 01:58:40 web01 sshd[5200]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 06:12:08 web01 sshd[5402]: Failed password for invalid user admin from 203.0.113.99 port 39002 ssh2
+Sep 20 06:12:19 web01 sshd[5404]: Failed password for invalid user admin from 203.0.113.99 port 39008 ssh2
+Sep 20 07:44:31 web01 sshd[5560]: Accepted publickey for bob from 192.0.2.24 port 50990 ssh2: ED25519 SHA256:Rt5Yn8QwLx2VcZb7MdKsPo1AjHe4UgFi0NxTvBqWyCm
+Sep 20 09:03:17 web01 sshd[5688]: Accepted publickey for alice from 192.0.2.10 port 53440 ssh2: RSA SHA256:7h2Qp1kXcO9vEr4m0LzYbN6sTgWx3JdFaHuVnQeKpMI

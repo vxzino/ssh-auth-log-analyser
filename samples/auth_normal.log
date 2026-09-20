@@ -1,0 +1,18 @@
+Sep 18 07:58:12 web01 sshd[812]: Server listening on 0.0.0.0 port 22.
+Sep 18 08:02:41 web01 sshd[1043]: Accepted publickey for alice from 192.0.2.10 port 51322 ssh2: RSA SHA256:7h2Qp1kXcO9vEr4m0LzYbN6sTgWx3JdFaHuVnQeKpMI
+Sep 18 08:02:41 web01 sshd[1043]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 08:44:09 web01 sshd[1043]: pam_unix(sshd:session): session closed for user alice
+Sep 18 09:15:27 web01 sshd[1188]: Failed password for bob from 192.0.2.24 port 49810 ssh2
+Sep 18 09:15:39 web01 sshd[1188]: Accepted password for bob from 192.0.2.24 port 49810 ssh2
+Sep 18 09:15:39 web01 sshd[1188]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 10:03:55 web01 sshd[1301]: Accepted publickey for deploy from 192.0.2.50 port 40122 ssh2: ED25519 SHA256:Kq8Lm2WpXz4TbNcYv6RsEgHj1UdFo0AiPeMxZt7BnQw
+Sep 18 10:04:02 web01 sshd[1301]: Received disconnect from 192.0.2.50 port 40122:11: disconnected by user
+Sep 18 10:04:02 web01 sshd[1301]: Disconnected from user deploy 192.0.2.50 port 40122
+Sep 18 11:22:18 web01 sshd[1455]: Accepted publickey for alice from 192.0.2.10 port 51890 ssh2: RSA SHA256:7h2Qp1kXcO9vEr4m0LzYbN6sTgWx3JdFaHuVnQeKpMI
+Sep 18 12:47:33 web01 sshd[1602]: Failed password for carol from 192.0.2.31 port 52004 ssh2
+Sep 18 12:47:51 web01 sshd[1602]: Failed password for carol from 192.0.2.31 port 52004 ssh2
+Sep 18 12:48:06 web01 sshd[1602]: Accepted password for carol from 192.0.2.31 port 52004 ssh2
+Sep 18 13:30:00 web01 CRON[1700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:19:44 web01 sudo[1822]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 18 16:05:12 web01 sshd[1955]: Accepted publickey for deploy from 192.0.2.50 port 41330 ssh2: ED25519 SHA256:Kq8Lm2WpXz4TbNcYv6RsEgHj1UdFo0AiPeMxZt7BnQw
+Sep 18 17:58:20 web01 sshd[2044]: Accepted password for bob from 192.0.2.24 port 50221 ssh2
