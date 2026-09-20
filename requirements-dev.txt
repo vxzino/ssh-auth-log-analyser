@@ -1,0 +1,3 @@
+# The tool itself needs only the Python standard library.
+# These are for development (running the tests) only.
+pytest>=7.0
